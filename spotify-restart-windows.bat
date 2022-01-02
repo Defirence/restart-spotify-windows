@@ -1,6 +1,6 @@
 taskkill /im Spotify.exe /f
 TIMEOUT 1
-CD C:\Users\Defirence\AppData\Roaming\
+CD %AppData%\Roaming\
 TIMEOUT 1
-START C:\Users\Defirence\AppData\Roaming\Spotify\Spotify.exe
+START %AppData%\Roaming\Spotify\Spotify.exe
 EXIT
